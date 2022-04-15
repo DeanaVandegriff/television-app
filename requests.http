@@ -51,3 +51,14 @@ Content-Type: application/json
 
 ### show-destroy
 DELETE http://localhost:3000/shows/6.json
+
+### Users create (signup)
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "name": "Meredith Grey",
+  "email": "mgrey@test.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
