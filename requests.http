@@ -24,3 +24,30 @@ Content-Type: application/json
 
 ### actor-destroy
 DELETE http://localhost:3000/actors/8.json/
+
+### show-index
+GET http://localhost:3000/shows.json
+
+### show-create
+POST http://localhost:3000/shows.json
+Content-Type: application/json
+
+{
+  "title": "Survivor",
+  "year": 2000,
+  "plot": "18 strangers stranded on an island trying to win a million dollars"
+}
+
+### show-show
+GET http://localhost:3000/shows/6.json
+
+### show-update
+PATCH http://localhost:3000/shows/6.json
+Content-Type: application/json
+
+{
+  "plot": "20 strangers stranded on an island trying to win a million dollars"
+}
+
+### show-destroy
+DELETE http://localhost:3000/shows/6.json
