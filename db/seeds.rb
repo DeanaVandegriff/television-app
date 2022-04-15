@@ -15,3 +15,13 @@
 # Actor.create(first_name: "Ron", last_name: "Howard", known_for: "Happy Days")
 
 # Actor.create(first_name: "Jennifer", last_name: "Aniston", known_for: "Friends")
+
+# Show.create(title: "The West Wing", year: 1999, plot: "an in depth look at working in the White House")
+
+# Show.create(title: "Happy Days", year: 1974, plot: "life in middle class America in the fifties")
+
+# Show.create(title: "Friends", year: 1994, plot: "finding your way with a group of friends")
+
+# Show.create(title: "Seinfeld", year: 1989, plot: "a show about nothing")
+
+# Show.create(title: "The Office", year: 2005, plot: "a comedic look at life working in an office")
