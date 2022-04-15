@@ -1,2 +1,26 @@
-### actor#index
+### actor-index
 GET http://localhost:3000/actors.json
+
+### actor-create
+POST http://localhost:3000/actors.json
+Content-Type: application/json
+
+{
+  "first_name": "Katey",
+  "last_name": "Sagal",
+  "known_for": "Sons of Anarchy"
+}
+
+### actor-show
+GET http://localhost:3000/actors/1.json/
+
+### actor-update
+PATCH http://localhost:3000/actors/8.json/
+Content-Type: application/json
+
+{
+  "first_name": "Michael"
+}
+
+### actor-destroy
+DELETE http://localhost:3000/actors/8.json/

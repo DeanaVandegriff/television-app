@@ -1,6 +1,6 @@
 class ActorsController < ApplicationController
   def index
-    actors = Actors.all
+    actors = Actor.all
     render json: actors.as_json
   end
 
@@ -15,12 +15,12 @@ class ActorsController < ApplicationController
   end
 
   def show
-    actor = actor.find_by(id: params [:id])
+    actor = Actor.find_by(id: params[:id])
     render json: actor.as_json
   end
 
   def update
-    actor = actor.find_by(id: params [:id])
+    actor = Actor.find_by(id: params[:id])
     actor.first_name = params[:first_name] || actor.first_name,
     actor.last_name = params[:last_name] || actor.last_name,
     actor.known_for = params[:known_for] || actor.known_for
@@ -29,7 +29,7 @@ class ActorsController < ApplicationController
   end
 
   def destroy
-    actor = actor.find_by(id: params [:id])
+    actor = Actor.find_by(id: params[:id])
     actor.destroy
     render json: {message: "actor removed" }
   end
