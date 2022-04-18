@@ -28,14 +28,14 @@
 
 # User.create!(name: "Derek Shepherd", email: "dshepherd@test.com", password: "password")
 
-User.create!(name: "Christina Yang", email: "cyang@test.com", password: "password")
+# User.create!(name: "Christina Yang", email: "cyang@test.com", password: "password")
 
-User.create!(name: "Izzy Stevens", email: "istevens@test.com", password: "password")
+# User.create!(name: "Izzy Stevens", email: "istevens@test.com", password: "password")
 
-User.create!(name: "George OMalley", email: "gomalley@test.com", password: "password")
+# User.create!(name: "George OMalley", email: "gomalley@test.com", password: "password")
 
-User.create!(name: "Alex Karev", email: "akarev@test.com", password: "password")
+# User.create!(name: "Alex Karev", email: "akarev@test.com", password: "password")
 
-User.create!(name: "Miranda Bailey", email: "mbailey@test.com", password: "password")
+# User.create!(name: "Miranda Bailey", email: "mbailey@test.com", password: "password")
 
-User.create!(name: "Richard Webber", email: "rwebber@test.com", password: "password")
+# User.create!(name: "Richard Webber", email: "rwebber@test.com", password: "password")
