@@ -7,9 +7,9 @@ Autorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2NTAzNzMzMT
 Content-Type: application/json
 
 {
-  "first_name": "Jim",
-  "last_name": "Parsons",
-  "known_for": "The Big Bang Theory"
+  "first_name": "Fred",
+  "last_name": "Rogers",
+  "known_for": "Mister Rogers Neighborhood"
 }
 
 ### actor-show
