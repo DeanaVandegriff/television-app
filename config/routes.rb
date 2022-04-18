@@ -17,4 +17,5 @@ Rails.application.routes.draw do
   delete "/shows/:id" => "shows#destroy"
 
   post "/users" => "users#create"
+  post "/sessions" => "sessions#create"
 end
